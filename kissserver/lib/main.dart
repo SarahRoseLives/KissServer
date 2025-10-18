@@ -15,6 +15,7 @@ class KissBridgeApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'KISS-TCP Bridge',
+      debugShowCheckedModeBanner: false, // <-- Removed debug banner
       theme: ThemeData(
         brightness: Brightness.dark,
         primarySwatch: Colors.blue,
